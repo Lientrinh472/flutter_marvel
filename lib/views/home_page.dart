@@ -37,12 +37,12 @@ class _HomePageState extends State<HomePage> {
       home: Scaffold(
           appBar: AppBar(
             title: const Text('MARVEL'),
+            backgroundColor: Colors.redAccent.withOpacity(0.5),
           ),
           body: Container(
-            // return const AssetImage('images/marvel.jpg'),
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("images/marvel.jpg"),
+                  image: AssetImage("images/marvellogo.jpg"),
                   fit: BoxFit.cover),
               ),
               child: Center(
